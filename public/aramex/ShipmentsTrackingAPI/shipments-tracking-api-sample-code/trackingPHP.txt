@@ -1,0 +1,36 @@
+<?php	
+	$soapClient = new SoapClient('Tracking.wsdl');
+	echo '<pre>';
+	// shows the methods coming from the service 
+	print_r($soapClient->__getFunctions());
+	
+	/*
+		parameters needed for the trackShipments method , client info, Transaction, and Shipments' Numbers.
+		Note: Shipments array can be more than one shipment.
+	*/
+	$params = array(
+		'ClientInfo'  			=> array(
+									'AccountCountryCode'	=> 'JO',
+									'AccountEntity'		 	=> 'AMM',
+									'AccountNumber'		 	=> 'NNNNN',
+									'AccountPin'		 	=> 'NNNNNN',
+									'UserName'			 	=> 'AAAA@AAA.com',
+									'Password'			 	=> 'XXXXXXXXX',
+									'Version'			 	=> 'v1.0'
+								),
+
+		'Transaction' 			=> array(
+									'Reference1'			=> '001' 
+								),
+		'Shipments'				=> array(
+									'XXXXXXXXXX'
+								)
+	);
+	
+	// calling the method and printing results
+	try {
+		$auth_call = $soapClient->TrackShipments($params);
+	} catch (SoapFault $fault) {
+		die('Error : ' . $fault->faultstring);
+	}
+?>

@@ -1,0 +1,46 @@
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.exe.config
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.exe
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.pdb
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.xml
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.Form1.resources
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.Resources.resources
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.exe
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.xml
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.pdb
+D:\Format Dana\Shipping Preparation and Tracking API\aramex-rates-calculator-api-sample-code\rates-calculator-api\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.exe.config
+D:\Format Dana\Shipping Preparation and Tracking API\aramex-rates-calculator-api-sample-code\rates-calculator-api\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.exe
+D:\Format Dana\Shipping Preparation and Tracking API\aramex-rates-calculator-api-sample-code\rates-calculator-api\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.xml
+D:\Format Dana\Shipping Preparation and Tracking API\aramex-rates-calculator-api-sample-code\rates-calculator-api\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.pdb
+D:\Format Dana\Shipping Preparation and Tracking API\aramex-rates-calculator-api-sample-code\rates-calculator-api\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.exe
+D:\Format Dana\Shipping Preparation and Tracking API\aramex-rates-calculator-api-sample-code\rates-calculator-api\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.pdb
+D:\Format Dana\Shipping Preparation and Tracking API\aramex-rates-calculator-api-sample-code\rates-calculator-api\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.xml
+D:\Format Dana\Shipping Preparation and Tracking API\aramex-rates-calculator-api-sample-code\rates-calculator-api\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Format Dana\Shipping Preparation and Tracking API\aramex-rates-calculator-api-sample-code\rates-calculator-api\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.Form1.resources
+D:\Format Dana\Shipping Preparation and Tracking API\aramex-rates-calculator-api-sample-code\rates-calculator-api\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.Resources.resources
+D:\Format Dana\Shipping Preparation and Tracking API\aramex-rates-calculator-api-sample-code\rates-calculator-api\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Format Dana\Shipping Preparation and Tracking API\aramex-rates-calculator-api-sample-code\rates-calculator-api\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.exe.config
+D:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.exe
+D:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.xml
+D:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.pdb
+D:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.exe
+D:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.pdb
+D:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.xml
+D:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.Form1.resources
+D:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.Resources.resources
+D:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.exe.config
+E:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.exe
+E:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.xml
+E:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.pdb
+E:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.exe
+E:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.pdb
+E:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\bin\Debug\RateCalculatorClient.xml
+E:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.Form1.resources
+E:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.Resources.resources
+E:\Visual Studio 2010\Projects\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\RateCalculatorClient\obj\x86\Debug\RateCalculatorClient.vbproj.GenerateResource.Cache

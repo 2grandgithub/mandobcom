@@ -1,0 +1,168 @@
+
+/*-----------advertising card-------------- */
+.Bronze{ background-color: #cd7f32; }
+.Silver{ background-color: #848080; }
+.Golden{ background-color: #D4AF37; }
+
+.my_card {
+  display: inline-block;
+  width: 250px;
+  height: 300px;
+  padding: 0;
+  background-color: white;
+  -webkit-box-shadow: 1px 1px 15px #ccc;
+          box-shadow: 1px 1px 15px #ccc;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+  margin: 8px;
+  -webkit-transition: .5s;
+  transition: .5s; clear: both;
+}
+
+.my_card .title {
+  border-top-left-radius: 15px;
+  height: 35px;
+  width: 100%;
+  background-color: #404E67;
+  color: white;
+  padding-top: 5px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.my_card .category {
+  padding: 5px;
+  height: 50px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.my_card.offers .category {
+  height: 30px;
+}
+
+.my_card .category span,
+.my_card .price span {
+  font-weight: bold;
+}
+
+.my_card .price {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 50px;
+  width: 100%;
+  border-top: 1px dashed #ccc;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.my_card .more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  border-top: 1px solid #ccc;
+}
+
+.my_card .more a,
+.my_card .more button {
+  width: 23%;
+  cursor: pointer;
+}
+
+.my_card .description {
+  padding: 5px;
+  height: 120px;
+  overflow: hidden;
+}
+
+.my_card:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 8px 8px 15px #ccc;
+          box-shadow: 8px 8px 15px #ccc;
+}
+
+.my_card.advertising {
+  height: 345px;
+}
+
+.my_card .offer_img_card {
+
+  max-width: 250px;
+  max-height: 185px;
+}
+
+.offer_img_card{
+    min-width: 100px;
+    display: table;
+    margin: 0 auto;
+}
+/*-----------End advertising card-------------- */
+
+.my_short_form input:not([type="submit"]) {
+  width: 30%;
+  display: inline;
+  margin-right: 5px;
+  border-radius: 20px;
+}
+
+.my_short_form label {
+  display: block;
+}
+
+.my_short_form span {
+  font-weight: bold;
+}
+
+/* --------------------------------------*/
+
+button {
+  cursor: pointer;
+}
+/* ---------------------------------spinner ---------------------------------------- */
+#CompanySideMemberShip
+{
+  position: fixed;
+  top: 50%;
+  padding: 0px;
+  height: 100px;
+  width: 39px;
+  background-color: #3d4e5d;
+  color: white;
+  border-radius: 0 14px 14px 0;
+  cursor: pointer;
+  font-size: 18px;
+  transition: .5s;
+  z-index: 1000;
+}
+#CompanySideMemberShip a
+{
+  width: 100%;
+  height: 100%;
+  color: white;
+  transform: rotate(90deg);
+  /* padding-left: 28px; */
+  font-size: 18px;
+  transition: .5s;
+}
+#CompanySideMemberShip p { transform: rotate(90deg); padding-left: 28px; }
+#CompanySideMemberShip:hover
+{
+    transform: translateX(10px);
+    width: 100px;
+    height: 40px;
+}
+#CompanySideMemberShip:hover a{ padding-left: 10px; }
+#CompanySideMemberShip:hover p
+{
+  transform: rotate(0deg);
+  padding-left: 5px;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,14 @@
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\bin\Debug\LocationAPIClientCSharp.exe.config
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\bin\Debug\LocationAPIClientCSharp.exe
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\bin\Debug\LocationAPIClientCSharp.pdb
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\obj\Debug\LocationAPIClientCSharp.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\obj\Debug\LocationAPIClientCSharp.frmFetchCountries.resources
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\obj\Debug\LocationAPIClientCSharp.frmFetchCountry.resources
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\obj\Debug\LocationAPIClientCSharp.frmMain.resources
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\obj\Debug\LocationAPIClientCSharp.frmValidateAddress.resources
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\obj\Debug\LocationAPIClientCSharp.Properties.Resources.resources
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\obj\Debug\LocationAPIClientCSharp.csproj.GenerateResource.Cache
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\obj\Debug\LocationAPIClientCSharp.exe
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\obj\Debug\LocationAPIClientCSharp.pdb
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\obj\Debug\LocationAPIClientCSharp.frmFetchCities.resources
+E:\Visual Studio 2010\Projects\LocationAPIClientCSharp\LocationAPIClientCSharp\obj\Debug\LocationAPIClientCSharp.frmFetchOffices.resources

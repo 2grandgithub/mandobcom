@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://ws.aramex.net/ShippingAPI/v1/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service_1_0" targetNamespace="http://ws.aramex.net/ShippingAPI/v1/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="http://ws.aramex.net/ShippingAPI/v1/">
+      <xsd:element name="RateCalculatorRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="ClientInfo" nillable="true" type="tns:ClientInfo" />
+            <xsd:element minOccurs="0" name="Transaction" nillable="true" type="tns:Transaction" />
+            <xsd:element minOccurs="0" name="OriginAddress" nillable="true" type="tns:Address" />
+            <xsd:element minOccurs="0" name="DestinationAddress" nillable="true" type="tns:Address" />
+            <xsd:element minOccurs="0" name="ShipmentDetails" nillable="true" type="tns:ShipmentDetails" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="ClientInfo">
+        <xsd:sequence>
+          <xsd:element name="UserName" nillable="true" type="xsd:string" />
+          <xsd:element name="Password" nillable="true" type="xsd:string" />
+          <xsd:element name="Version" nillable="true" type="xsd:string" />
+          <xsd:element name="AccountNumber" nillable="true" type="xsd:string" />
+          <xsd:element name="AccountPin" nillable="true" type="xsd:string" />
+          <xsd:element name="AccountEntity" nillable="true" type="xsd:string" />
+          <xsd:element name="AccountCountryCode" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ClientInfo" nillable="true" type="tns:ClientInfo" />
+      <xsd:complexType name="Transaction">
+        <xsd:sequence>
+          <xsd:element name="Reference1" nillable="true" type="xsd:string" />
+          <xsd:element name="Reference2" nillable="true" type="xsd:string" />
+          <xsd:element name="Reference3" nillable="true" type="xsd:string" />
+          <xsd:element name="Reference4" nillable="true" type="xsd:string" />
+          <xsd:element name="Reference5" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="Transaction" nillable="true" type="tns:Transaction" />
+      <xsd:complexType name="Address">
+        <xsd:sequence>
+          <xsd:element name="Line1" nillable="true" type="xsd:string" />
+          <xsd:element name="Line2" nillable="true" type="xsd:string" />
+          <xsd:element name="Line3" nillable="true" type="xsd:string" />
+          <xsd:element name="City" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="StateOrProvinceCode" nillable="true" type="xsd:string" />
+          <xsd:element name="PostCode" nillable="true" type="xsd:string" />
+          <xsd:element name="CountryCode" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="Address" nillable="true" type="tns:Address" />
+      <xsd:complexType name="ShipmentDetails">
+        <xsd:sequence>
+          <xsd:element name="Dimensions" nillable="true" type="tns:Dimensions" />
+          <xsd:element name="ActualWeight" nillable="true" type="tns:Weight" />
+          <xsd:element name="ChargeableWeight" nillable="true" type="tns:Weight" />
+          <xsd:element name="DescriptionOfGoods" nillable="true" type="xsd:string" />
+          <xsd:element name="GoodsOriginCountry" nillable="true" type="xsd:string" />
+          <xsd:element name="NumberOfPieces" type="xsd:int" />
+          <xsd:element name="ProductGroup" nillable="true" type="xsd:string" />
+          <xsd:element name="ProductType" nillable="true" type="xsd:string" />
+          <xsd:element name="PaymentType" nillable="true" type="xsd:string" />
+          <xsd:element name="PaymentOptions" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="CustomsValueAmount" nillable="true" type="tns:Money" />
+          <xsd:element minOccurs="0" name="CashOnDeliveryAmount" nillable="true" type="tns:Money" />
+          <xsd:element minOccurs="0" name="InsuranceAmount" nillable="true" type="tns:Money" />
+          <xsd:element minOccurs="0" name="CashAdditionalAmount" nillable="true" type="tns:Money" />
+          <xsd:element minOccurs="0" name="CollectAmount" nillable="true" type="tns:Money" />
+          <xsd:element minOccurs="0" name="Services" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Items" nillable="true" type="tns:ArrayOfShipmentItem" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ShipmentDetails" nillable="true" type="tns:ShipmentDetails" />
+      <xsd:complexType name="Dimensions">
+        <xsd:sequence>
+          <xsd:element name="Length" type="xsd:int" />
+          <xsd:element name="Width" type="xsd:int" />
+          <xsd:element name="Height" type="xsd:int" />
+          <xsd:element name="Unit" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="Dimensions" nillable="true" type="tns:Dimensions" />
+      <xsd:complexType name="Weight">
+        <xsd:sequence>
+          <xsd:element name="Unit" nillable="true" type="xsd:string" />
+          <xsd:element name="Value" type="xsd:double" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="Weight" nillable="true" type="tns:Weight" />
+      <xsd:complexType name="Money">
+        <xsd:sequence>
+          <xsd:element name="CurrencyCode" nillable="true" type="xsd:string" />
+          <xsd:element name="Value" type="xsd:double" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="Money" nillable="true" type="tns:Money" />
+      <xsd:complexType name="ArrayOfShipmentItem">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="ShipmentItem" nillable="true" type="tns:ShipmentItem" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ArrayOfShipmentItem" nillable="true" type="tns:ArrayOfShipmentItem" />
+      <xsd:complexType name="ShipmentItem">
+        <xsd:sequence>
+          <xsd:element name="PackageType" nillable="true" type="xsd:string" />
+          <xsd:element name="Quantity" type="xsd:int" />
+          <xsd:element name="Weight" nillable="true" type="tns:Weight" />
+          <xsd:element minOccurs="0" name="Comments" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Reference" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ShipmentItem" nillable="true" type="tns:ShipmentItem" />
+      <xsd:element name="RateCalculatorResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="Transaction" nillable="true" type="tns:Transaction" />
+            <xsd:element minOccurs="0" name="Notifications" nillable="true" type="tns:ArrayOfNotification" />
+            <xsd:element minOccurs="0" name="HasErrors" type="xsd:boolean" />
+            <xsd:element minOccurs="0" name="TotalAmount" nillable="true" type="tns:Money" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="ArrayOfNotification">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Notification" nillable="true" type="tns:Notification" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ArrayOfNotification" nillable="true" type="tns:ArrayOfNotification" />
+      <xsd:complexType name="Notification">
+        <xsd:sequence>
+          <xsd:element name="Code" nillable="true" type="xsd:string" />
+          <xsd:element name="Message" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="Notification" nillable="true" type="tns:Notification" />
+    </xsd:schema>
+    <xs:schema xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/" attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="anyType" nillable="true" type="xs:anyType" />
+      <xs:element name="anyURI" nillable="true" type="xs:anyURI" />
+      <xs:element name="base64Binary" nillable="true" type="xs:base64Binary" />
+      <xs:element name="boolean" nillable="true" type="xs:boolean" />
+      <xs:element name="byte" nillable="true" type="xs:byte" />
+      <xs:element name="dateTime" nillable="true" type="xs:dateTime" />
+      <xs:element name="decimal" nillable="true" type="xs:decimal" />
+      <xs:element name="double" nillable="true" type="xs:double" />
+      <xs:element name="float" nillable="true" type="xs:float" />
+      <xs:element name="int" nillable="true" type="xs:int" />
+      <xs:element name="long" nillable="true" type="xs:long" />
+      <xs:element name="QName" nillable="true" type="xs:QName" />
+      <xs:element name="short" nillable="true" type="xs:short" />
+      <xs:element name="string" nillable="true" type="xs:string" />
+      <xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte" />
+      <xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt" />
+      <xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong" />
+      <xs:element name="unsignedShort" nillable="true" type="xs:unsignedShort" />
+      <xs:element name="char" nillable="true" type="tns:char" />
+      <xs:simpleType name="char">
+        <xs:restriction base="xs:int" />
+      </xs:simpleType>
+      <xs:element name="duration" nillable="true" type="tns:duration" />
+      <xs:simpleType name="duration">
+        <xs:restriction base="xs:duration">
+          <xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?" />
+          <xs:minInclusive value="-P10675199DT2H48M5.4775808S" />
+          <xs:maxInclusive value="P10675199DT2H48M5.4775807S" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="guid" nillable="true" type="tns:guid" />
+      <xs:simpleType name="guid">
+        <xs:restriction base="xs:string">
+          <xs:pattern value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:attribute name="FactoryType" type="xs:QName" />
+      <xs:attribute name="Id" type="xs:ID" />
+      <xs:attribute name="Ref" type="xs:IDREF" />
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="RateCalculatorRequest">
+    <wsdl:part name="parameters" element="tns:RateCalculatorRequest" />
+  </wsdl:message>
+  <wsdl:message name="RateCalculatorResponse">
+    <wsdl:part name="parameters" element="tns:RateCalculatorResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service_1_0">
+    <wsdl:operation name="CalculateRate">
+      <wsdl:input wsaw:Action="http://ws.aramex.net/ShippingAPI/v1/Service_1_0/CalculateRate" name="RateCalculatorRequest" message="tns:RateCalculatorRequest" />
+      <wsdl:output wsaw:Action="http://ws.aramex.net/ShippingAPI/v1/Service_1_0/CalculateRateResponse" name="RateCalculatorResponse" message="tns:RateCalculatorResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service_1_0" type="tns:Service_1_0">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CalculateRate">
+      <soap:operation soapAction="http://ws.aramex.net/ShippingAPI/v1/Service_1_0/CalculateRate" style="document" />
+      <wsdl:input name="RateCalculatorRequest">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="RateCalculatorResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service_1_0">
+    <wsdl:port name="Service_1_0" binding="tns:Service_1_0">
+      <soap:address location="http://ws.aramex.net/shippingapi/ratecalculator/service_1_0.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

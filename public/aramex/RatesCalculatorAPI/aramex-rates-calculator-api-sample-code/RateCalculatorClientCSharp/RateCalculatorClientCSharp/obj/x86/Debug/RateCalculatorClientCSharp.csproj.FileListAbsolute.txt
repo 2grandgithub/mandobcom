@@ -1,0 +1,10 @@
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClientCSharp\RateCalculatorClientCSharp\bin\Debug\RateCalculatorClientCSharp.exe.config
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClientCSharp\RateCalculatorClientCSharp\bin\Debug\RateCalculatorClientCSharp.exe
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClientCSharp\RateCalculatorClientCSharp\bin\Debug\RateCalculatorClientCSharp.pdb
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClientCSharp\RateCalculatorClientCSharp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClientCSharp\RateCalculatorClientCSharp\obj\x86\Debug\RateCalculatorClient.Form1.resources
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClientCSharp\RateCalculatorClientCSharp\obj\x86\Debug\RateCalculatorClient.Properties.Resources.resources
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClientCSharp\RateCalculatorClientCSharp\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClientCSharp\RateCalculatorClientCSharp\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClientCSharp\RateCalculatorClientCSharp\obj\x86\Debug\RateCalculatorClientCSharp.exe
+C:\Users\michaelgh\documents\visual studio 2010\Projects\RateCalculatorClientCSharp\RateCalculatorClientCSharp\obj\x86\Debug\RateCalculatorClientCSharp.pdb
